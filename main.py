@@ -7,6 +7,7 @@ from textwrap import dedent
 from agents import CustomAgents
 from tasks import CustomTasks
 
+
 from langchain_community.tools import DuckDuckGoSearchRun
 
 search_tool = DuckDuckGoSearchRun()
